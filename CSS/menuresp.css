@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Handlee&family=Henny+Penny&family=Merienda:wght@400;700&family=Original+Surfer&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: #dbd8fd;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	min-height: 70px;
+	background: linear-gradient(to bottom, #f7ff00, #d864fc);
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+h1, h2{
+	font-family: 'Henny Penny', cursive;
+	text-align: center;
+	color: #2a228b;
+	font-size: 1.6rem;
+	margin: 10px;
+}
+
+p{
+	font-family: 'Original Surfer', cursive;
+	text-align: justify;
+	font-size: 1rem;
+	color: #4f4d63;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 10px;
+}
+
+footer{
+	display: flex;
+	flex-direction: inline;
+	min-height: 50px;
+	background: linear-gradient(to bottom, #d864fc, #f7ff00);
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	font-family: Handlee;
+	font-weight: bold;
+}
+
+.navLink{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Handlee', cursive;
+	font-weight:bolder;
+	padding: 3px 6px;
+}
+
+.navLink:hover{
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #655DC6;
+	width: 100%;
+	color: white;
+	padding: 3px 6px;
+	transition: 0.7s;
+}
+
+.styleHeader{
+	display: flex;
+	align-items: center;
+}
+
+.styleHeader img{
+	width: 100%;
+	height: 40%;
+	opacity: 60%;
+	margin-bottom: 20px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.logoRedes{
+	display: flex;
+	align-items: center;
+}
+
+.logoRedes img{
+	height: 30px;
+	margin-right: 10px;
+}
+
+.label{
+	color:#655DC6
+}
+
+.footerMap{
+	color: #655DC6;
+}
+
+.footerMap:hover{
+	color: #E31D93;
+	transition: 0.5s;
+}
+
+.styleSection{
+	width: 300;
+	height: 500;
+	display: flex;
+	flex-direction: column;
+	background: transparent;
+	padding: 10px;
+	justify-items:	space-between;
+}
+
+.styleImgFlt{
+	display: flex;
+	align-items: center;
+	max-width: 250px;
+	height: auto;
+	margin: auto;
+}
+
+.content{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.contentSend{
+	display: flex, block;
+	width: 100%;
+	justify-items: center;
+}
+
+.formStyle{
+	font-family: 'Handlee', cursive;
+	padding: 10px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	margin: 10px auto;
+	display: flex, block;
+}
+
+.style{
+	font-family: 'Original Surfer', cursive;
+	color: #4f4d63;
+}
+.accesorios{
+	display: none;
+}
+.check:checked + .accesorios{
+	font-family: 'Original Surfer', cursive;
+	color: #4f4d63;
+	display:inline;
+}
+
+.boton{
+	font-family: 'Original Surfer', cursive;
+	color: #4f4d63;
+	display: inline;
+	padding: 3px;
+}
+
+.botonSend{
+	font-family: 'Original Surfer', cursive;
+	color: #4f4d63;
+	margin: 10px;
+	padding: 3px;
+}
+
+.textZone{
+	display: flex;
+	margin: 10px;
+}
+
+.mapa{
+	display: flex;
+	width: 100%;
+	padding: 5%;
+}
+
+@media screen and (min-width: 540px) {
+	body {
+		background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(219,216,253,1) 100%);
+	}
+
+	header{
+		width: 100%;
+		display: flex; 
+		flex-direction: row;
+		min-height: 70px;
+		background-color: #FCE021;
+		padding: 10px;
+		align-items: baseline;
+	}
+
+	.navLink{
+		text-decoration: none;
+		color: #ffffff;
+		padding: 3px 6px;
+		}
+		
+	.navLink:hover{
+		text-decoration: none;
+		font-weight: bold;
+		background-color: #655DC6;
+		width: 100%;
+		color: white;
+		padding: 3px 6px;
+		transition: 0.7s;
+	}
+
+	.imag{
+		display: grid;
+		width: 100%;
+		grid-template-columns:1fr 1fr;
+		grid-template-areas: "div1 div2" "div3 div4";
+		justify-items: stretch;
+	}
+
+	.fomrCompra{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: stretch;
+		align-items: center;
+	}
+
+	.div1{
+		grid-area: div1;
+	}
+
+	.div2{
+		grid-area: div2;
+	}
+	.div3{
+		grid-area: div3;
+	}
+
+	.div4{
+		grid-area: div4;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body {
+		background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(219,216,253,1) 100%);
+	}
+
+	header{
+		width: 100%;
+		display: flex; 
+		flex-direction: row;
+		min-height: 70px;
+		background-color: #FCE021;
+		padding: 10px;
+		align-items: baseline;
+	}
+
+	.navLink{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: white;
+	padding: 3px 6px;
+	}
+	
+	.navLink:hover{
+		text-decoration: none;
+		font-weight: bold;
+		background-color: #655DC6;
+		width: 100%;
+		color: white;
+		padding: 3px 6px;
+		transition: 0.7s;
+	}
+
+	.logo{
+		display: flex;
+		align-items: left;
+	}
+	
+	.logo img{
+		height: 90px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.imag{
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: "div1 div2" "div3 div4";
+		justify-items: stretch;
+	}
+
+	.mainUs{
+		display: grid;
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "div1 div2";
+		justify-items: space-between;
+		align-items: center;
+	}
+
+	.fomrCompra{
+		display: grid;
+		grid-template-columns: 1fr, 1fr;
+		justify-items: stretch;
+		align-items: center;
+	}
+
+	.div1{
+		grid-area: div1;
+	}
+
+	.div2{
+		grid-area: div2;
+	}
+	.div3{
+		grid-area: div3;
+	}
+
+	.div4{
+		grid-area: div4;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.styleSection{
+		width: 300;
+		height: 500;
+		display: flex;
+		flex-direction: column;
+		background: transparent;
+		padding: 10px;
+	}
+
+	.imag{
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-areas: "div1 div2 div3 div4";
+		justify-items: stretch;
+	}
+	.mainUs{
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: "div1 div2";
+		justify-items: space-evenly;
+		align-items: center;
+	}
+
+	.fomrContact{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.div1{
+		grid-area: div1;
+	}
+
+	.div2{
+		grid-area: div2;
+	}
+	.div3{
+		grid-area: div3;
+	}
+
+	.div4{
+		grid-area: div4;
+	}
+}
