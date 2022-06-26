@@ -14,8 +14,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	min-height: 70px;
-	background: #FCE021;
-	justify-content: space-between;
+	background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(200,225,255,1) 100%);	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
 }
@@ -62,10 +61,9 @@ footer{
 	text-decoration: none;
 	font-weight: bold;
 	background-color: #655DC6;
-	width: 100%;
 	color: white;
 	padding: 3px 6px;
-	transition: 0.5s;
+	transition: all 0.5s;
 }
 
 .styleHeader{
@@ -216,7 +214,6 @@ footer{
 		text-decoration: none;
 		font-weight: bold;
 		background-color: #655DC6;
-		width: 100%;
 		color: white;
 		padding: 3px 6px;
 		transition: 0.5s;
@@ -284,7 +281,6 @@ footer{
 		text-decoration: none;
 		font-weight: bold;
 		background-color: #655DC6;
-		width: 100%;
 		color: white;
 		padding: 3px 6px;
 		transition: 0.5s;
