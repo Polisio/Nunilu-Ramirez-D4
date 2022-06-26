@@ -23,7 +23,7 @@ header{
 h1, h2{
 	font-family: 'Henny Penny', cursive;
 	text-align: center;
-	color: #aca5fe;
+	color: rgb(224, 31, 143);
 	font-size: 1.6rem;
 	margin: 10px;
 }
