@@ -11,14 +11,14 @@ a{
 }
 
 body{
-	background: #dbd8fd;
+	background: #ffffff;
 }
 
 header{
 	display: flex;
 	flex-direction: column;
 	min-height: 70px;
-	background: linear-gradient(to bottom, #f7ff00, #d864fc);
+	background: #FCE021;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
@@ -27,7 +27,7 @@ header{
 h1, h2{
 	font-family: 'Henny Penny', cursive;
 	text-align: center;
-	color: #2a228b;
+	color: #aca5fe;
 	font-size: 1.6rem;
 	margin: 10px;
 }
@@ -69,7 +69,7 @@ footer{
 	width: 100%;
 	color: white;
 	padding: 3px 6px;
-	transition: 0.7s;
+	transition: 0.5s;
 }
 
 .styleHeader{
@@ -143,7 +143,8 @@ footer{
 }
 
 .contentSend{
-	display: flex, block;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	justify-items: center;
 }
@@ -155,7 +156,7 @@ footer{
 	background: transparent;
 	border: none;
 	margin: 10px auto;
-	display: flex, block;
+	display: flex inline-block;
 }
 
 .style{
@@ -179,6 +180,7 @@ footer{
 }
 
 .botonSend{
+	width: 50px;
 	font-family: 'Original Surfer', cursive;
 	color: #4f4d63;
 	margin: 10px;
@@ -224,7 +226,7 @@ footer{
 		width: 100%;
 		color: white;
 		padding: 3px 6px;
-		transition: 0.7s;
+		transition: 0.5s;
 	}
 
 	.imag{
@@ -294,7 +296,7 @@ footer{
 		width: 100%;
 		color: white;
 		padding: 3px 6px;
-		transition: 0.7s;
+		transition: 0.5s;
 	}
 
 	.logo{
@@ -304,7 +306,7 @@ footer{
 	
 	.logo img{
 		height: 90px;
-		margin-left: 10px;
+		margin-left: 30px;
 		margin-bottom: 10px;
 	}
 
@@ -327,22 +329,20 @@ footer{
 
 	.fomrCompra{
 		display: grid;
-		grid-template-columns: 1fr, 1fr;
+		grid-template-columns: 1fr 1fr;
 		justify-items: stretch;
 		align-items: center;
 	}
 
-	.div1{
+	.div1{ 
 		grid-area: div1;
 	}
-
 	.div2{
 		grid-area: div2;
 	}
 	.div3{
 		grid-area: div3;
 	}
-
 	.div4{
 		grid-area: div4;
 	}
@@ -371,6 +371,16 @@ footer{
 		grid-template-areas: "div1 div2 div3 div4";
 		justify-items: stretch;
 	}
+
+	.formGrid{
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: "div5 div6";
+		justify-items: stretch;
+		padding: 20px;
+	}
+
 	.mainUs{
 		display: grid;
 		width: 100%;
@@ -384,19 +394,23 @@ footer{
 		display: flex;
 		flex-direction: row;
 	}
-
 	.div1{
 		grid-area: div1;
 	}
-
 	.div2{
 		grid-area: div2;
 	}
 	.div3{
 		grid-area: div3;
 	}
-
 	.div4{
 		grid-area: div4;
 	}
+	.div5{
+		grid-area: div5;
+	}
+	.div6{
+		grid-area: div6;
+	}
+
 }
