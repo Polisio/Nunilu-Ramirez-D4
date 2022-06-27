@@ -63,7 +63,7 @@ footer{
 	background-color: #655DC6;
 	color: white;
 	padding: 3px 6px;
-	transition: all 0.5s;
+	transition: 0.5s;
 }
 
 .styleHeader{
